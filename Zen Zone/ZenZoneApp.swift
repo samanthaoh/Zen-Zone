@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Zen_ZoneApp: App {
+struct ZenZoneApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

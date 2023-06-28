@@ -30,7 +30,19 @@ struct ContentView: View {
                             .toolbar {
                                 ToolbarItemGroup(placement: .status){
                                     NavigationLink(destination: ArticlesView()) {
-                                        Image(systemName: "arrow.forward")
+                                        Image(systemName: "newspaper")
+                                    }
+                                    NavigationLink(destination: ReflectionView()) {
+                                        Image(systemName: "book")
+                                    }
+                                    NavigationLink(destination: ContentView()) {
+                                        Image(systemName: "house")
+                                    }
+                                    NavigationLink(destination: CopingStrategiesView()) {
+                                        Image(systemName: "heart")
+                                    }
+                                    NavigationLink(destination: HotlineView()) {
+                                        Image(systemName: "phone")
                                     }
                                 }
                             } //toolbar

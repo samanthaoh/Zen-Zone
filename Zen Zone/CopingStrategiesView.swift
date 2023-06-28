@@ -9,7 +9,28 @@ import SwiftUI
 
 struct CopingStrategiesView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("Coping Strategies")
+                .toolbar {
+                    ToolbarItemGroup(placement: .status){
+                        NavigationLink(destination: ArticlesView()) {
+                            Image(systemName: "newspaper")
+                        }
+                        NavigationLink(destination: ReflectionView()) {
+                            Image(systemName: "book")
+                        }
+                        NavigationLink(destination: ContentView()) {
+                            Image(systemName: "house")
+                        }
+                        NavigationLink(destination: CopingStrategiesView()) {
+                            Image(systemName: "heart")
+                        }
+                        NavigationLink(destination: HotlineView()) {
+                            Image(systemName: "phone")
+                        }
+                    }
+                } //toolbar
+        } //NavigationStack
     }
 }
 

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A7B442822A4A116300C03B14 /* Zen_ZoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B442812A4A116300C03B14 /* Zen_ZoneApp.swift */; };
+		A7B442822A4A116300C03B14 /* ZenZoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B442812A4A116300C03B14 /* ZenZoneApp.swift */; };
 		A7B442842A4A116300C03B14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B442832A4A116300C03B14 /* ContentView.swift */; };
 		A7B442862A4A116400C03B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B442852A4A116400C03B14 /* Assets.xcassets */; };
 		A7B442892A4A116400C03B14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B442882A4A116400C03B14 /* Preview Assets.xcassets */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		A7B4427E2A4A116300C03B14 /* Zen Zone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zen Zone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A7B442812A4A116300C03B14 /* Zen_ZoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zen_ZoneApp.swift; sourceTree = "<group>"; };
+		A7B442812A4A116300C03B14 /* ZenZoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenZoneApp.swift; sourceTree = "<group>"; };
 		A7B442832A4A116300C03B14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A7B442852A4A116400C03B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7B442882A4A116400C03B14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		A7B442802A4A116300C03B14 /* Zen Zone */ = {
 			isa = PBXGroup;
 			children = (
-				A7B442812A4A116300C03B14 /* Zen_ZoneApp.swift */,
+				A7B442812A4A116300C03B14 /* ZenZoneApp.swift */,
 				A7B442832A4A116300C03B14 /* ContentView.swift */,
 				FBC3DF232A4B617A007C1BCF /* ArticlesView.swift */,
 				FBC3DF252A4B618D007C1BCF /* CopingStrategiesView.swift */,
@@ -154,7 +154,7 @@
 				FBC3DF242A4B617A007C1BCF /* ArticlesView.swift in Sources */,
 				FBC3DF262A4B618D007C1BCF /* CopingStrategiesView.swift in Sources */,
 				FBC3DF222A4B608F007C1BCF /* HotlineView.swift in Sources */,
-				A7B442822A4A116300C03B14 /* Zen_ZoneApp.swift in Sources */,
+				A7B442822A4A116300C03B14 /* ZenZoneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
